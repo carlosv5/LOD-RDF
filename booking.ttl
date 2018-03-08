@@ -1,0 +1,357 @@
+@prefix : <http://schema.org/> .
+@prefix booking_com: <http://ogp.me/ns/fb/booking_com#> .
+@prefix cat: <http://www.w3.org/ns/dcat#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix cnt: <http://www.w3.org/2008/content#> .
+@prefix ctag: <http://commontag.org/ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix fb: <http://ogp.me/ns/fb#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gldp: <http://www.w3.org/ns/people#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix grddl: <http://www.w3.org/2003/g/data-view#> .
+@prefix hcalendar: <http://microformats.org/profile/hcalendar#> .
+@prefix hcard: <http://microformats.org/profile/hcard#> .
+@prefix ht: <http://www.w3.org/2006/http#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/icaltzd#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix md: <http://www.w3.org/ns/md#> .
+@prefix ns1: <http://ogp.me/ns#image:> .
+@prefix ns2: <al:ios:> .
+@prefix ns3: <http://ogp.me/ns/fb/booking_com#location:> .
+@prefix ns4: <al:android:> .
+@prefix ns5: <wb:> .
+@prefix og: <http://opengraphprotocol.org/schema/> .
+@prefix og1: <http://ogp.me/ns#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptr: <http://www.w3.org/2009/pointers#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix rif: <http://www.w3.org/2007/rif#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix v: <http://rdf.data-vocabulary.org/#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdr: <http://www.w3.org/2007/05/powder#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.booking.com/hotel/ae/atana.es.html#breadcrumb> xhv:role xhv:navigation .
+
+<https://www.booking.com/hotel/ae/atana.es.html#destination__error> xhv:role xhv:alert .
+
+<https://www.booking.com/hotel/ae/atana.es.html#footer> xhv:role xhv:navigation .
+
+<https://www.booking.com/hotel/ae/atana.es.html#footer_menu_track> xhv:role xhv:contentinfo .
+
+<https://www.booking.com/hotel/ae/atana.es.html#footertopnav> xhv:role xhv:navigation .
+
+<https://www.booking.com/hotel/ae/atana.es.html#footertopnav-partners> xhv:role xhv:navigation .
+
+<https://www.booking.com/hotel/ae/atana.es.html#frm> xhv:role xhv:search .
+
+<https://www.booking.com/hotel/ae/atana.es.html#hotelpage_availform> xhv:role xhv:form .
+
+<https://www.booking.com/hotel/ae/atana.es.html#left> xhv:role xhv:complementary .
+
+<https://www.booking.com/hotel/ae/atana.es.html#right> xhv:role xhv:main .
+
+<https://www.booking.com/hotel/ae/atana.es.html#top> xhv:role xhv:banner .
+
+<https://www.booking.com/city/ae/dubai.es.html> a schema:WebPage .
+
+<https://www.booking.com/country/ae.es.html> a schema:WebPage .
+
+<https://www.booking.com/district/ae/dubai/tecom.es.html> a schema:WebPage .
+
+<https://www.booking.com/hotel/ae/atana.es.html> ns4:app_name "Booking.com Hotel Reservation"@es ;
+    ns4:package "com.booking"@es ;
+    ns4:url "booking://hotel/1505562?affiliate_id=375119"@es ;
+    ns2:app_name "Booking.com Hotel Reservations"@es ;
+    ns2:app_store_id "367003839"@es ;
+    ns2:url "booking://hotel/1505562?affiliate_id=375119"@es ;
+    og1:description "Este nuevo hotel de 4 estrellas se encuentra en Dubái, a 5 minutos en coche del centro comercial Mall of Emirates."@es ;
+    og1:image "https://t-ec.bstatic.com/images/hotel/max300/597/59789878.jpg"@es ;
+    ns1:height "300"@es ;
+    ns1:width "204"@es ;
+    og1:locale "es"@es ;
+    og1:site_name "Booking.com"@es ;
+    og1:title "★★★★ Atana Hotel, Dubái, Emiratos Árabes Unidos"@es ;
+    og1:type "booking_com:hotel"@es ;
+    og1:url "https://www.booking.com/hotel/ae/atana.es.html"@es ;
+    fb:app_id "145362478954725"@es ;
+    fb:pages "131840030178250, 1425349334428496, 117615518393985, 1565844503706287, 517612321758712, 1668799180037291, 265097377176252, 1643712662515912, 303492549842824, 1638321783047271, 809709019119342, 959185470826086, 217466488652137, 641365839348517, 203741606405114"@es ;
+    ns3:latitude ""@es ;
+    ns3:longitude ""@es ;
+    md:item () ;
+    rdfa:usesVocabulary schema: ;
+    ns5:webmaster "48970bbca45d28c2"@es .
+
+<https://www.booking.com/index.es.html> a schema:WebPage .
+
+<https://www.booking.com/region/ae/dubai.es.html> a schema:WebPage .
+
+[] xhv:role xhv:tooltip .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:dialog .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:dialog .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:region .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:img .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:dialog .
+
+[] xhv:role xhv:img .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:alert .
+
+[] a schema:Hotel ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressCountry "Emiratos Árabes Unidos" ;
+            schema:addressLocality "Tecom, Hessa Street, Al Barsha South" ;
+            schema:addressRegion "Dubái" ;
+            schema:postalCode "" ;
+            schema:streetAddress "Tecom, Hessa Street, Al Barsha South, Tecom, Dubái, Emiratos Árabes Unidos" ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:bestRating 10 ;
+            schema:ratingValue 8.5e+00 ;
+            schema:reviewCount 20268 ] ;
+    schema:description "Este nuevo hotel de 4 estrellas se encuentra en Dubái, a 5 minutos en coche del centro comercial Mall of Emirates." ;
+    schema:hasMap <https://maps.googleapis.com/maps/api/staticmap?zoom=15=color:blue%7c25.1017958,55.1782107=false=25.1017958,55.1782107=1600x1200=gme-booking=booking-frontend=jOpGBC3sXSIScxFnKpZYwWMgmkU=> ;
+    schema:image <https://t-ec.bstatic.com/images/hotel/max500/597/59789878.jpg> ;
+    schema:name "Atana Hotel" ;
+    schema:priceRange "Precios para las próximas fechas a partir de € 70 por noche (igualamos el precio)" ;
+    schema:url <https://www.booking.com/hotel/ae/atana.es.html> .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:alert .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:img .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:img .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] a schema:BreadcrumbList ;
+    schema:itemListElement [ a schema:ListItem ;
+            schema:item <https://www.booking.com/city/ae/dubai.es.html> ;
+            schema:name "Hoteles en Dubái"@es ;
+            schema:position "4"@es ],
+        [ a schema:ListItem ;
+            schema:item <https://www.booking.com/index.es.html> ;
+            schema:name "Booking.com"@es ;
+            schema:position "1"@es ],
+        [ a schema:ListItem ;
+            schema:item <https://www.booking.com/country/ae.es.html> ;
+            schema:name "Emiratos Árabes Unidos"@es ;
+            schema:position "2"@es ],
+        [ a schema:ListItem ;
+            schema:item <https://www.booking.com/district/ae/dubai/tecom.es.html> ;
+            schema:name "Tecom"@es ;
+            schema:position "5"@es ],
+        [ a schema:ListItem ;
+            schema:name "Atana Hotel"@es ;
+            schema:position "6"@es ],
+        [ a schema:ListItem ;
+            schema:item <https://www.booking.com/region/ae/dubai.es.html> ;
+            schema:name "Dubái"@es ;
+            schema:position "3"@es ] .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:button .
+
+[] xhv:role xhv:link .
+
+[] xhv:role xhv:presentation .
+
+[] xhv:role xhv:link .
+
+

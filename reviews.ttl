@@ -1,3 +1,4 @@
+@base <http://example/sitc/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
@@ -5,7 +6,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 
 
-_:Hotel1 a schema:Hotel ;
+<Atana> a schema:Hotel ;
          schema:name "Atana" ;
          schema:description "Este nuevo hotel de 4 estrellas se encuentra en Dubái, a 5 minutos en coche del centro comercial Mall of Emirates." ;
          schema:address [
@@ -19,13 +20,9 @@ _:Hotel1 a schema:Hotel ;
          ] ;
          schema:telephone "+971 4 356 6666" ;
          schema:email "reservations@atanahotel.com" ;
-         schema:sameAs [
-           schema:URL  "http://example/sitc/dubai/atana"
-         ] ; 
          schema:petsAllowed false .
 
-
-_:Review1 a schema:Review ;
+<#review1> a schema:Review ;
           schema:reviewBody "I love this hotel" ;
           schema:datePublished "2007-11-03T16:18:05Z" ;
           schema:reviewRating [
@@ -34,9 +31,9 @@ _:Review1 a schema:Review ;
            schema:mbox <mailto:anonymous@anonymous.com> ] ;
            schema:ratingValue "1"
           ] ;
-          schema:itemReviewed _:Hotel1 .
+          schema:itemReviewed <Atana> .
 
-_:Review2 a schema:Review ;
+<#review2> a schema:Review ;
           schema:reviewBody "I did not like this hotel" ;
           schema:datePublished "2017-11-03T16:18:05Z" ;
           schema:reviewRating [
@@ -45,5 +42,5 @@ _:Review2 a schema:Review ;
 
            schema:ratingValue "0.3"
           ] ;
-          schema:itemReviewed _:Hotel1 .
+          schema:itemReviewed <Atana> .
 
