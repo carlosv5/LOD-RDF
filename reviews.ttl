@@ -2,6 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix dbr: <http://dbpedia.org/resource/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
 
 
 _:Hotel1 a schema:Hotel ;
@@ -28,8 +29,9 @@ _:Review1 a schema:Review ;
           schema:reviewBody "I love this hotel" ;
           schema:datePublished "2007-11-03T16:18:05Z" ;
           schema:reviewRating [
-           schema:author [ a schema:Person ;
-           schema:givenName "anonymous" ] ;
+           schema:author [ a foaf:Person ;
+           schema:name "anonymous" ;
+           schema:mbox <mailto:anonymous@anonymous.com> ] ;
            schema:ratingValue "1"
           ] ;
           schema:itemReviewed _:Hotel1 .
