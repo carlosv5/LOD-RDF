@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+
+_:Hotel1 a schema:Hotel ;
+         schema:name "Atana" ;
+         schema:description "Este nuevo hotel de 4 estrellas se encuentra en Dubái, a 5 minutos en coche del centro comercial Mall of Emirates." ;
+         schema:address [
+           schema:addressCountry dbr:United_Arab_Emirates ;
+           schema:addressLocality "Barsha Heights" ;
+           schema:addressRegion dbr:Dubai ;
+           schema:postOfficeBoxNumber "505555" ;
+           schema:postalCode "505555" ;
+           schema:streetAddress "Hessa Street 1"
+
+         ] ;
+         schema:telephone "+971 4 356 6666" ;
+         schema:email "reservations@atanahotel.com" ;
+         schema:sameAs [
+           schema:URL  "http://example/sitc/dubai/atana"
+         ] ; 
+         schema:petsAllowed false .
+
+
+_:Review1 a schema:Review ;
+          schema:reviewBody "I love this hotel" ;
+          schema:datePublished "2007-11-03T16:18:05Z" ;
+          schema:reviewRating [
+           schema:author [ a schema:Person ;
+           schema:givenName "anonymous" ] ;
+           schema:ratingValue "1"
+          ] ;
+          schema:itemReviewed _:Hotel1 .
+
+_:Review2 a schema:Review ;
+          schema:reviewBody "I did not like this hotel" ;
+          schema:datePublished "2017-11-03T16:18:05Z" ;
+          schema:reviewRating [
+           schema:author [ a schema:Person ;
+           schema:givenName "anonymous" ] ;
+
+           schema:ratingValue "0.3"
+          ] ;
+          schema:itemReviewed _:Hotel1 .
+
